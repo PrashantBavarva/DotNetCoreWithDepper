@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.151" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Irock.PatientHealthApp.Database\Irock.PatientHealthApp.Database.csproj" />
+    <ProjectReference Include="..\Irock.PatientHealthApp.DTO\Irock.PatientHealthApp.DTO.csproj" />
+  </ItemGroup>
+
+</Project>

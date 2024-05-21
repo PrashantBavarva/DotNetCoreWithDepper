@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Irock.PatientHealthApp.DTO\Irock.PatientHealthApp.DTO.csproj" />
+    <ProjectReference Include="..\Irock.PatientHealthApp.Repository\Irock.PatientHealthApp.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
